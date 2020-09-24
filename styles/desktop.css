@@ -1,0 +1,35 @@
+html, body {
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 250px;
+  background-color: yellow;
+  color: red;
+  font-size: 20px;
+}
+
+@media (min-width:481px) {
+  .content {
+    background-color: orange;
+    color: purple;
+    font-size: 12px;
+  }
+}
+
+@media (min-width:761px) {
+  .content {
+    background-color: violet;
+    color: purple;
+    font-size: 12px;
+  }
+}
+
+.submit {
+  color: green;
+  background-color: #2c2c2c;
+}
